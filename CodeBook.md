@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Course Project - codebook
 
-## Data decription
+## Data description
 
 This codebook pertains to a tidied data set derived from the [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
@@ -8,14 +8,14 @@ Experiments were carried out on 30 individuals, aged 19-48 years. Each participa
 
 The raw data includes 561 variables, ranging from raw recorded values from the accelerometer and gyroscope, to various summary measures (mean, standard deviation, minimum, maximum, etc.) per experiment. The purpose of the tidy data set is to provide a simplified data set focused only on mean and standard deviation measurements, averaged for each variable, for each activity, and for each subject. The process for tidying the raw data is outlined below:
 
-## Procedure or tidying
+## Procedure for tidying
 
 - The raw data were imported into R (version 4.1.0 (2021-05-18))
 - For both the test and training raw data, subject identifiers (1-30) and activity labels (walking, walking_upstairs, walking_downstairs, sitting, and standing) were appended together.
 - The 561-feature list was used to label the variable columns in each of the training and test sets
 - The training and test sets were merged into a single data set
 - From the merged data set, only variables pertaining to mean and standard deviation measurements were extracted
-- Averages per participant, per activity, per mean and standard deviation measurement were calculated and stored in an independent tidy data set, available in this repo.
+- Averages per participant, per activity, per mean and standard deviation measurement were calculated and stored in an independent tidy data set, available in this repo (as a .csv or .txt file).
 
 The code for conducting the aforementioned tidying procedure is provided in the run_analysis.R script within this repo. 
 
