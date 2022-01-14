@@ -17,6 +17,8 @@ The raw data includes 561 variables, ranging from raw recorded values from the a
 - From the merged data set, only variables pertaining to mean and standard deviation measurements were extracted
 - Averages per participant, per activity, per mean and standard deviation measurement were calculated and stored in an independent tidy data set, available in this repo.
 
+The code for conducting the aforementioned tidying procedure is provided in the run_analysis.R script within this repo. 
+
 ## Tidy data codebook
 
 The tidy data set includes 180 rows with 89 columns. The columns are described below:
